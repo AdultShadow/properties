@@ -11,6 +11,8 @@ management:
     health:
       show-details: always    
 spring:
+  application:
+    name: microservice-one
   boot:
     admin:
       client:
