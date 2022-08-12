@@ -13,10 +13,6 @@ management:
 spring:
   application:
     name: microservice-one
-  boot:
-    admin:
-      client:
-        url: http://localhost:8889
   mvc:
     format:
       date: dd/MM/yyyy
