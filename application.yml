@@ -11,6 +11,10 @@ management:
     health:
       show-details: always    
 spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8889
   application:
     name: microservice-one
   mvc:
