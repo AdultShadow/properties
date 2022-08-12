@@ -3,6 +3,10 @@ server:
   servlet:
     context-path: /
 spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:8889
   mvc:
     format:
       date: dd/MM/yyyy
