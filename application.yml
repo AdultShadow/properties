@@ -45,3 +45,10 @@ spring:
 springdoc:
   api-docs:
     path: /bets-openapi
+security:
+  oauth2:
+    client:
+      registration:
+        google:
+          client-id: 789814122841-5su38evfdlpp368585eicmkbpn11p9ss.apps.googleusercontent.com
+          client-secret: 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
