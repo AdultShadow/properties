@@ -12,8 +12,6 @@ management:
     health:
       show-details: always
 spring:
-  build:
-    dockerfile: Dockerfile
   security:
     oauth2:
       client:
