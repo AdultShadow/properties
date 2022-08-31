@@ -30,7 +30,7 @@ spring:
     format:
       date: dd/MM/yyyy
   datasource:
-    url: jdbc:postgresql://192.168.99.88/hibernate
+    url: jdbc:postgresql://localhost/hibernate
     username: postgres
     password: 1111
     driver-class-name: org.postgresql.Driver
